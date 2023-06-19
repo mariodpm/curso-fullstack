@@ -1,0 +1,27 @@
+.titulo{
+    color: red;
+}
+
+.titulo2{
+    color: orange;
+    background-color: black;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo1{
+    margin: 10px 50px 80px 40px;
+    padding: 30px;
+    border:  10px solid red;
+    background-color: rgb(121, 193, 221);
+}
+
+.parrafo2{
+    font-size: 25px;
+    background-color: orange;
+    /* height: 150px;
+    width: 150px; */
+    overflow: auto;
+}
