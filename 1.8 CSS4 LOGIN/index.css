@@ -1,0 +1,85 @@
+body{
+    background-color: #390099;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.recuadro-login{
+    display: flex;
+    background-color: #ff0054;
+    height: 50%;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.75);
+}
+
+.container-form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-input{
+    width: 100%;
+    margin: 5px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: fff;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+input{
+    width: 70%;
+    border-radius: 60px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #390099;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 70%;
+    border-radius: 25px;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.container-img{
+    width: 50%;
+    /* background-color: orange; */
+    background-image: url('https://cdn141.picsart.com/309256231011211.png?type=webp&to=min&r=640');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
