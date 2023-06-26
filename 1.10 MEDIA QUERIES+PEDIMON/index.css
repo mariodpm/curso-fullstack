@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.encabezado{
+    width: 100%;
+    height: 100vh;
+    background-color: #F7DE81; 
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px;
+    color: #0b4da2;
+    font-weight: 500;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+.contenedor-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+.contenedor-parrafo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+.titulo-info{
+    font-weight: 600!important;
+}
+.img-info{
+    width: 100%;
+}
+.titulo-info{
+    width: 100%;
+}
+.btn-atrapar{
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #0b4da2;
+    height: 50px;
+    width: 40%;
+    margin-top: 20px;
+}
+.seccion-azul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #0b4da2;
+}
+.title-azul{
+    color: #F7DE81;
+    font-size: 80px;
+    font-weight: 700;
+}
+.p-azul{
+    color: white;
+    font-family: 27px;
+    font-weight: 300;
+}
+.container-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.container-icon-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.container-icon-info p{
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: wheat;
+}
