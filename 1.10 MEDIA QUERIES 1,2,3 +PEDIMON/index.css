@@ -101,3 +101,27 @@ li{
     text-align: center;
     color: wheat;
 }
+
+
+@media(max-width:1023px){
+    .btn-atrapar{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .img-pikachu{
+        width: 40%;
+    }
+    .titulo-info{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media(max-width: 1440px) and (min-width:1024px){
+    .btn-atrapar{
+        font-size: 0.8em;
+    }
+    .img-pikachu{
+        width: 30%;
+    }
+}
